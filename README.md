@@ -35,6 +35,7 @@ Created calculated columns to compute financial metrics using Excel formulas pro
 Created a helper column 'CohortMonth' to identify the first month each country made a sale:
    =TEXT(I3,"MMM")
 Used a PivotTable to group sales by Country and Month and calculate Monthly Revenue starting from each country’s first sales month.
+5. I created 3 helper columns on my cleaned data named Rev per category, Cummulative Revenue and Cummulative %
 
 6. Pivot Table Helper Columns
 
@@ -58,7 +59,7 @@ Accessories and Phones ship fastest; Networking and Printers are slowest.
 Three salespeople consistently exceed 20% discount thresholds: C. Otieno, J. Njeri, and A. Patel.
 Extreme discounts (>30%) were also identified, with the highest being 56.5% by M. Rossi.
 
-10. Helper Column Challenges
+10. Helper Column Challenges - I got stuck
 
 Attempted to create additional helper columns but encountered technical challenges in linking them correctly in the PivotTable.
 
@@ -71,4 +72,3 @@ Attempted to create additional helper columns but encountered technical challeng
 - Laptops Lead Sales: Top 3 products are laptops.
 - Africa Has Slowest Delivery: Less than half of orders arrive within 7 days.
 
-### Dashboard Title Suggestion: “Global Sales Performance Dashboard”
